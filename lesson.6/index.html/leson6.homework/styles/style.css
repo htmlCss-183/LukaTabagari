@@ -1,0 +1,88 @@
+h1{
+    background-color: rgb(255, 189, 127);
+    color: rgb(255, 195, 127);
+    padding: 30px;
+
+}
+#uteg{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 200px;
+}
+#uteg:hover{
+    color: chartreuse;
+}
+#booyy{
+  padding-left: 200px;
+  font-size: 25px;
+}
+#booyy:hover{
+    color: blue;
+    
+
+}
+#bangn{
+    padding-left: 300px;
+    font-size: 25px;
+}
+#bangn:hover{
+    color: darkgreen;
+
+}
+h2{
+    text-align: center;
+    padding-right: 40px;
+    font-size: 40px;
+}
+.picture{
+
+     display: flex;
+     justify-content: center;
+   padding-right: 100px;
+  
+ 
+}
+
+#clasbox{
+    border:solid 4px;
+}
+#clasbox p:nth-child(2n){
+    color: blue;
+}
+#clasbox p:first-child{
+    color: brown;
+}
+#clasbox p:nth-child(3){
+  color: darkgoldenrod;
+
+}
+.input   {
+     border: solid 10px;
+    padding-right: 200px;
+    padding: 5px;
+}
+.input1{
+    border: solid 10px;
+}
+.input:hover{
+    color: rgb(0, 255, 149);
+}
+table tr th{
+    border:solid 1px;
+}
+table tr td{
+    border:solid 1px;
+    text-align: center;
+}
+ #ddd:hover{
+    color: blue;
+ }
+ #student:hover{
+    color: brown;
+ }
+ table{
+background-color: coral;
+ }
+ #wolf{
+    font-size: 50px;
+ }

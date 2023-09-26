@@ -1,0 +1,126 @@
+#marager{
+    background-color: rgb(42, 126, 165);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px ;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    border: none;
+    text-decoration: none;
+    color: brown;
+}
+#marager:hover{
+    background: red;
+    color:blue
+}
+#externalLink:active{
+    background-color: aqua;
+
+}
+#searchBar {
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+#externalLink1:link {
+    color: #21b169;
+}
+#externalLink1:visited {
+    color: #25ADD6;
+}
+#searchBar[type="text"]:enabled {
+    background: #0c701d;
+}
+
+#searchBar[type="text"]:disabled {
+    background: #cf260f;
+    color: aqua;
+}
+#searchBar1{
+    border-radius: 10px;
+    padding: 5px;
+   color: aqua;
+    background-color: darkcyan;
+    border:solid 1px;
+}
+.someParagraphs p:nth-child(2n){
+       
+    background-color: #0c701d;
+}
+.someParagraphs p:nth-child(1n){
+    background-color: blue;
+}
+.someParagraphs p:nth-child(3n){
+    background-color: darkturquoise;
+
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+#blackchang{
+border:solid 2px;
+border: solid 2px;
+color: rgb(194, 151, 33);
+background-color: aqua;
+border-radius: 20px;
+padding: 5px;
+font-size: larger;
+}
+#blackchang:hover{
+    border-radius: 15px;
+    color: rgb(139, 0, 7);
+    background-color: blue;
+    padding: 10px;
+
+    
+}
+#marager:hover{
+    border:solid 2px;
+    padding: 5px;
+    background-color: rgb(0, 255, 76);
+    color: brown;
+    border-radius: 12px;
+}
+#marager{
+    padding: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 15px;
+   background-color: darkseagreen;
+   color: black;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: larger;
+}
+#blackchang1{
+    border:solid 3px;
+    background-color: darkgray;
+    color: aquamarine;
+    padding-left: 10px;
+   padding-right: 5px;
+   padding: 5px;
+   border-radius: 20px;
+   padding-top: 5px;
+  
+}
+#blackchang1:hover{
+    background-color: rgb(47, 77, 78);
+    color: antiquewhite;
+    font-size: larger;
+    padding-left: 20px;
+
+}
+#danger:visited{
+background-color: blue;
+font-size: larger;
+
+}
+#danger1:active{
+    background-color: rgb(145, 255, 71);
+    
+}
