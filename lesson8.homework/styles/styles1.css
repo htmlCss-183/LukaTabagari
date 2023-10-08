@@ -1,0 +1,283 @@
+
+h1{
+    text-align: center;
+    color: aqua;
+    text-shadow: 2px 3px red;
+    border: solid 1px;
+    width: 700px;
+    position: relative;
+    left: 330px;
+    background-color: brown;
+}
+u{
+   text-decoration: none;
+}
+u:hover{
+    text-decoration: underline;
+    border:solid 1px;
+   color: aqua;
+}
+.footboll{
+  display: flex;
+  justify-content: space-around;
+  transform:rotate(20deg); 
+} 
+.footboll:hover{
+      transition-delay: 2s;
+    background-color: blue
+}
+
+#d1{
+    border-radius: 10px;
+}
+#d2{
+
+    border-radius: 10px;
+    
+}
+
+
+#d3{
+    border-radius: 10px;
+     
+
+  
+}
+#d3:hover{
+    width: 300px;
+
+}
+#d2:hover{
+    width: 300px;
+}
+#d1:hover{
+    width: 300px;
+}
+.can{
+    display: flex;
+   font-size: 20px;
+   animation-name: wolfs; 
+   position: relative;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+     padding: 20px;
+     border: solid 2px;
+     text-align: center;
+   
+}
+
+
+
+@keyframes wolfs {
+    from {background-color: green; }
+    to {background-color: rgb(0, 139, 86);
+        
+        
+    }
+
+}
+#shedzleba{
+    display: flex;
+    flex-direction: column;
+animation-name: shyyzyyyy;
+animation-duration: 5s;
+animation-iteration-count:infinite;
+position: relative;
+color: gold;
+padding: 10px;
+border: solid 1px;
+
+
+}
+@keyframes shyyzyyyy{
+ from{right:800px }
+to {left: 950px;}
+
+0% {background-color: rgb(31, 161, 212); left: 0px; top: 0px;}
+25% {background-color: rgb(16, 241, 163); left: 200px; top:0px;}
+50% {background-color: rgb(212, 255, 0);}
+75% {background-color: rgb(255, 170, 0);}
+100% {background-color: rgb(255, 64, 0);}
+}
+.centerthis {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: space-around;
+    
+}
+.zaaxii{
+    position: relative;
+    bottom: 20px;
+}
+table{
+    border:solid 1px;
+}
+table th{
+    border: solid 1px;
+}
+table tr td{
+    border: solid 1px;
+    background-color: crimson;
+    color: darkcyan;
+}
+.tr1{
+    background-color: rgb(20, 11, 134);
+    color: black;
+}
+.brigada td:hover{
+    padding: 20px;
+    background-color: chartreuse;
+
+
+
+
+}
+.mariami{
+
+    position: relative;
+    left:600px;
+    bottom: 110px;
+  
+
+}
+.pp1{
+    background-color: aqua;
+}
+#y2{
+    background-color: rgb(33, 33, 221);
+}
+.mariami  td{
+  background-color: blue;
+}
+#lo{
+    background-color: black;
+}
+#lo:hover{
+    padding: 20px;
+    background-color: aqua;
+}
+
+
+#seraf{
+    background-color: aquamarine;
+}
+#seraf:hover{
+    padding: 10px;
+    background-color: black;
+}
+#ertader{
+    background-color: brown;
+}
+#ertader:hover{
+    background-color: blue;
+    padding: 40px;
+}
+footer{
+    background-color:rgb(13, 153, 163);
+}
+.idii{
+display: flex;
+flex-direction: row;
+font-size: 60px;
+
+
+
+
+
+}
+
+.gamarjoba{
+display: flex;
+flex-direction: column;
+position: relative;
+left: 100px;
+font-size: 40px;
+bottom: 30px;
+}
+.gamige{ 
+  display: flex;
+flex-direction: row;
+font-size: 50px;
+justify-content:end;
+position: relative;
+bottom: 100px;
+
+
+
+ 
+ 
+} 
+.batman{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+    font-size: 20px;
+   
+
+ 
+}
+
+
+
+.blabla{
+    display: flex;
+  flex-direction: column;
+    font-size: 20px;
+  
+}   
+.helooo{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;  
+ 
+}
+.limuzin{
+    display: flex;
+   flex-direction: column;
+    font-size: 20px; 
+    
+}
+.gavakete{
+    display: flex;
+   flex-direction: column;
+   font-size: 20px;  
+
+  
+}
+#input{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-style:italic;
+}
+#input:hover{
+    background-color: blueviolet;
+}
+#input2{
+    background-color: antiquewhite;
+    color: blue;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px; 
+    font-style:italic;
+}
+.eskasi{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color: beige;
+}
+
+
+.gamaertianebeli{
+display: flex;
+justify-content: space-between;
+} 
+
+
+
+
+
