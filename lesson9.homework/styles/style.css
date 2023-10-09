@@ -1,0 +1,242 @@
+#dashpord{
+    color: darkgreen;
+}
+.backgraund{
+   display: flex;
+   flex-direction: column;
+   font-size: 50px;
+   position: relative;
+   top:60px;
+   left: 210px;
+ 
+}
+
+.boby{
+display: flex;
+flex-direction: row;
+width: 600px;
+justify-content: end;
+justify-content: space-around;
+margin-left: 700px;
+border: solid 1px;
+background-color: rgb(7, 76, 224);
+color: antiquewhite;
+position: relative;
+bottom: 50px;
+border-radius: 20px;
+}
+#d:hover{
+   font-size: 20px;
+color: antiquewhite;
+
+}
+
+#d1:hover{
+   font-size: 20px;
+color: coral;
+}
+#d2:hover{
+   font-size: 20px;
+color: brown;
+}
+#d3:hover{
+   font-size: 20px;
+color: blue;
+}
+#d4:hover{
+   font-size: 20px;
+color: blueviolet;
+}
+#d5:hover{
+   font-size: 20px;
+   color: aqua;
+
+}
+header{
+   background-image: url("https://img.freepik.com/free-vector/linear-flat-abstract-lines-pattern_23-2148940824.jpg"); 
+   background-size: 200px 400px;
+}
+#bd{
+   text-align: end;
+}
+.ferar{
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+   left: 300px;
+   width: 600px;
+   text-align: center;
+}
+#u{
+   color: blueviolet;
+}
+.elai{
+   display: flex;
+   flex-direction: row;
+   justify-content: left;
+   width:700px;
+   text-align: center;
+   color: rgb(20, 5, 230);
+}
+.and{
+   display: flex;
+   flex-direction: column;
+margin-left:  100px;
+
+  
+}
+#mark{
+   font-size: 20px;
+   border: solid 2px;
+   border-radius: 10px;
+}
+body{
+background-image: url("https://entrepreneurhandbook.co.uk/wp-content/uploads/2018/03/Example-of-vector-abstract-image.png.webp")
+}
+.aooo{
+   display: flex;
+   flex-direction: row;
+   font-size: 30px;
+}
+.mainbrig{
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   color: blue;
+}
+.lasjhkalj{
+   display: flex;
+   flex-direction: row;
+   font-size: 30px;
+   margin-top: 300px;
+  
+ position: relative;
+   right: 300px;
+   display: inline-block;
+  
+ 
+}
+
+a{
+   position: relative;
+   color: rgb(12, 179, 62);
+   font-weight: 500;
+  font-size: 30px;
+  text-decoration: none ;
+
+
+}
+
+a::before{
+content: "";
+position: absolute;
+top:100%;
+left: 0;
+width: 0;
+height: 3px;
+background-color: rgb(8, 8, 202);
+transition:  3s;
+
+}
+a:hover::before{
+width: 100px;
+border:solid 2px;
+background-color: rgb(14, 231, 87);
+}
+#ff1{
+   color: aqua;
+}
+#ff2{
+   color: brown;
+}
+#ff{
+   color: blue;
+}
+
+.pfd{
+   display: flex;
+   flex-direction: column;
+text-align: center;
+color: blue;
+}
+.pdf{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: aqua;  
+}
+.ffd{
+   color: brown;
+}
+#n:hover{
+font-size: 20px;
+color: darkgreen;
+}
+#n2:hover{
+   color: blue;
+   font-size: 20px;
+}
+#n3:hover{
+   color: chartreuse;
+   font-size: 20px;
+
+}
+.gamaertianebeli{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+   
+}
+footer{
+   background-color: antiquewhite;
+}
+#iniuhjoi{
+   text-align: center;
+}
+.gmbori{
+   display: flex;
+   width: 300px;
+   height: 100px;
+   background-color: aqua;
+   animation-name: shezyyyy;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   position: relative;
+   border: solid 1px;
+}
+@keyframes shezyyyy{
+   0%{background-color: rgb(0, 223, 223); left: 0px; top:0px;}
+   60%{background-color: rgb(247, 0, 0); left: 300px; top:100px}
+   100%{background-color: rgb(228, 222, 215); left: 0px; top: 200px;}
+   130%{background-color: rgb(2, 82, 255); left: 0px; top:0px}
+}
+.aragorn{
+   display: flex;
+   justify-content: flex-end;
+ margin-left: 600px;
+   width: 600px;
+   height: 100px;
+   background-color: aquamarine;
+}
+#fortuna{
+   border:solid 2px;
+   border-color: blue;
+   width: 400px;
+   font-size: 20px;
+   animation-name: mgelyyy;
+   animation-iteration-count: infinite;
+   animation-duration: 87s;
+   position: relative;
+}
+@keyframes mgelyyy{
+   0%{background-color: rgb(112, 114, 114); left: 0px; top:0px;}
+   30%{background-color: rgb(218, 255, 7); left: 500px; top:0px;}
+   60%{background-color: rgb(247, 0, 0);right: 300px; top:0px}
+   100%{background-color: rgb(228, 222, 215); }
+   130%{background-color: rgb(48, 50, 54); }
+
+}
+
+
