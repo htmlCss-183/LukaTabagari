@@ -1,0 +1,384 @@
+body{
+    background: #212121;
+   
+}
+.thisis{
+    display: flex;
+    flex-direction: row;
+}
+.gaaaertianeesyvealperi{
+    display: flex;
+    flex-direction: row;
+}
+#kopmfot{
+   display: flex;
+  position: absolute; left: 10px;
+  
+    width: 525.977px;
+height: 380.248px;
+margin-left: 27px;
+flex-shrink: 0;
+border-radius: 24px 0px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+.uperuli{
+display: flex;
+position: relative;left: 30px;
+flex-direction: row;
+  margin: 26 26 26 26;
+    width: 525.977px;
+height: 380.248px;
+flex-shrink: 0;
+    border-radius: 24px 0px;
+    border: 2px solid #FFF;
+ 
+}
+#mate1{
+   
+  position:relative;left: 47px;
+    display: flex;
+    color: #4C70EF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.4px;
+}
+#mate2{
+    display: flex;
+    position: relative;left:  47px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#graund1{
+    color: #B0ADAD;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 580px;
+}
+#graund2{
+    width: 580px;
+    color: #B0ADAD;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.garund3{
+    display: flex;
+    flex-direction: column;
+    position: relative;left: 47px;
+}
+
+.gombori{
+    width: 600px;
+    height: 54px;
+    text-align: center;
+    position: relative;
+    top:200px;
+    margin-left: 370px;
+    color:    white;
+}
+#whatldo{
+    color: #4C70EF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.4px;
+}
+.digital{
+    position: absolute;
+ display: flex;
+ flex-direction: row;
+    width: 480px;
+    height: 206px;
+    flex-shrink: 0;
+    position: relative;
+    right: 10px;
+}
+#dig{
+    display: flex;
+    position: absolute;left: 80px;top:60px;
+    width: 42px;
+    height: 42px;
+}
+#lambo1{
+    display: flex;
+    position: absolute; left: 100;top:30px;
+    width: 219.152px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+align-items: center;
+
+}
+#lambo{
+    display: flex;
+    position: absolute; top:130px;
+    color: #B0ADAD;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 432px;
+}
+
+.digital2{
+    
+    width: 480px;
+height: 206px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #292C36;
+
+}
+
+#ferar{
+    position: absolute; right:10;top:50px;
+    width: 42px;
+    height: 42px;
+    
+}
+#feerar2{
+    display: flex;
+    position: absolute; bottom: 80;left: 610px;
+
+    color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#DigitalWrite{
+    position: absolute;bottom:10px;
+    width: 432px;
+    color: #B0ADAD;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.gamaertianebeili{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    right: 150px;
+}
+
+.port{
+    color: #4C70EF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.4px;
+
+}
+.LATEST{
+   
+color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.6px;
+}
+.manrope1{
+    display: flex;
+    flex-direction: column;
+    width: 380px; 
+     
+}
+#bang1{
+    width: 380px;
+height: 283px;
+flex-shrink: 0;
+border-radius: 12px 12px 0px 0px;
+
+}
+#bang2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#bang3{
+    display: flex;
+   position: absolute; left: 20px;
+   position: relative;
+   margin-right: 260px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.4px;
+display: inline-flex;
+padding: 10px 18px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 6px;
+background: #558FFF;
+}
+.bang4{
+    width: 380px;
+height: 123px;
+flex-shrink: 0;
+border-radius: 0px 0px 12px 12px;
+background: #292C36;
+
+}
+.manrope2{
+display: flex;
+margin-left: 10px;
+flex-direction: column;
+width: 380;
+}
+
+.dragon1{
+    width: 380px;
+    height: 123px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 12px 12px;
+background: #292C36;
+}
+#margin{
+    width: 380px;
+height: 283px;
+flex-shrink: 0;
+border-radius: 12px 12px 0px 0px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+#dragon2{
+    display: flex;
+    margin-left: 10px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#margin4{
+    display: flex;
+    position: absolute; left: 20px;
+    position: relative;
+    margin-right: 260px;
+   
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.4px;
+display: inline-flex;
+padding: 10px 18px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 6px;
+background: #558FFF;
+}
+.manrope3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 380px;
+    height: 283px;
+    flex-shrink: 0;
+    border-radius: 12px 12px 0px 0px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#piton1{
+    display: flex;
+    margin-left: 10px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#piton2{
+    display: flex;
+    position: absolute; left: 20px;
+    position: relative;
+    margin-right: 260px;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.4px;
+display: inline-flex;
+padding: 10px 18px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 6px;
+background: #558FFF;
+}
+.dark1{
+   
+    width: 380px;
+height: 123px;
+flex-shrink: 0;
+border-radius: 0px 0px 12px 12px;
+background: #292C36;
+
+}
+#charchobichi{
+    width: 480px;
+height: 206px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #292C36;
+}
+#cahrhcobichi2{
+    width: 480px;
+height: 206px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #292C36;
+}
+.gamertianebeli3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+   
+}
+
+
+
+
