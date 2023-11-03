@@ -1,0 +1,347 @@
+.nav1{
+    display: flex;
+ align-items: center;
+ margin-right: 40px;
+ padding-top: 10px;
+  
+ }
+ 
+ 
+ .nav1 a{
+     border:1px solid transparent;
+     text-decoration: none;
+     color: white;
+     padding-right: 20px;
+     transform: 0,7;
+     padding: 5px 20px;
+    
+ }
+ 
+ .nav1 a:hover{
+     background-color: rgb(94, 85, 85);
+     color: black;
+ }
+ 
+ 
+ .gaertianeba{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     background-color: rgb(80, 8, 8);
+ 
+ }
+ /* aqedan chamoshlili siebia */
+ 
+ *{
+     align-items: center;
+ 
+     padding: 0;
+     margin: 0;
+ }
+ ul li a{
+     display: block;
+     padding:  20px 25px;
+     color: rgb(85, 83, 80);
+     text-decoration: none;
+     text-align: center;
+     font-size: 20px;
+ }
+ ul li:hover ul.dropdrow {
+     display: block;
+ }
+ ul li ul.dropdrow {
+     width: 100%;
+     background: rgb(75, 10, 10);
+     position: absolute;
+     z-index: 999;
+     display: none;
+ }
+ /* es meore ganmartebebis chamonashali aris aedan */
+ .dropdrow2  ul li a{
+     display: block;
+     padding:  20px 25px;
+     color: rgb(85, 83, 80);
+     text-decoration: none;
+     text-align: center;
+     font-size: 20px;
+ }
+ 
+ ul li ul.dropdrow2{
+     width: 100%;
+     background: rgb(75, 10, 10);
+     position: absolute;
+     z-index: 999;
+     display: none;
+ }
+ ul li:hover ul.dropdrow2{
+     display: block;
+ }
+ /* es aris locvebis cahmoweva aedan */
+ .dropdown3 ul li a{
+     display: block;
+     padding:  20px 25px;
+     color: rgb(85, 83, 80);
+     text-decoration: none;
+     text-align: center;
+     font-size: 20px;
+ }
+ ul li ul.dropdown3 {
+   
+     width: 100%;
+     background: rgb(75, 10, 10);
+     position: absolute;
+     z-index: 999;
+     display: none;
+ }
+ ul li:hover ul.dropdown3 {
+     display: block;
+ 
+ }
+ 
+ /* aqamdeeee */
+ 
+ /* aqamdeeeeee */
+ .kalendari{
+ height: 30px;
+ 
+ }
+ 
+ .shesaxeb{
+     height: 30px;
+ }
+ 
+ .dagvikavshirdit{
+     height: 30px;
+     
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* აქედან არის მეორე მენიუს დასაწყისი */
+ .gamaertianebeli{
+ display: flex;
+ align-items: center;
+ 
+     
+ }
+ .logo{
+  display: flex;
+   position: relative;
+   left: 100px;
+ }
+ #logos-teqsti{
+     color:rgb(99, 39, 0);
+     font-size: 20px;
+     text-decoration: none;
+     text-shadow: 2px 2px rgb(172, 130, 15);
+ }
+ .meniubar{
+     background-color: rgb(10, 80, 80);
+     height: 80px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0,5%;
+ }
+ 
+ 
+ .meniubar ul{
+     list-style: none;
+     display: flex;
+   
+ }
+ 
+ .meniubar ul li a{
+     padding: 10 30px;
+     text-decoration: none;
+     font-size: 20px;
+     color:white;
+     
+ }
+ 
+ .meniubar ul li a:hover{
+     color: rgb(134, 134, 153);
+     background-color: rgb(37, 2, 5); 
+      padding:30px;
+     
+       
+ }
+ /* აქამდე ქვემოთაც ამისმია მაგრამ ჰოვერები მინც დავყავი ცალკედდ!!! */
+ 
+ /* აქედან არის ლოცვები წიგნების ლამაზი ჰოვერის სტილები რომლებსაც ჰოვერ ეფექტები გავუკეთ რადგან დიდიდა დავყავი*/
+ #aa{
+     position: relative;
+     font-weight: 500;
+    text-decoration: none ;
+ }
+ #aa::before{
+     content: "";
+     position: absolute;
+     top:100%;
+     left: 0;
+     width: 0;
+     height: 3px;
+     background-color: rgb(115, 115, 119);
+     transition:  3s;
+     
+     }
+     #aa:hover::before{
+         width: 100px;
+         border:solid 1px;
+         background-color: rgb(113, 129, 118);
+         }
+ 
+   #aaa {
+     position: relative;
+     font-weight: 500;
+    text-decoration: none ;
+   } 
+   #aaa::before{
+     content: "";
+     position: absolute;
+     top:100%;
+     left: 0;
+     width: 0;
+     height: 3px;
+     background-color: rgb(72, 72, 77);
+     transition:  3s;
+   } 
+   #aaa:hover::before{
+     width: 100px;
+     border:solid 1px;
+     background-color: rgb(113, 129, 118);
+   }
+ 
+   #aaaa{
+     position: relative;
+     font-weight: 500;
+    text-decoration: none ;
+   }
+ #aaaa::before{
+     content: "";
+     position: absolute;
+     top:100%;
+     left: 0;
+     width: 0;
+     height: 3px;
+     background-color: rgb(72, 72, 77);
+     transition:  3s;
+ }
+ #aaaa:hover::before{
+     width: 100px;
+     border:solid 1px;
+     background-color: rgb(113, 129, 118);
+ }
+ #aaaaa{
+     position: relative;
+     font-weight: 500;
+    text-decoration: none ;
+ }
+ #aaaaa::before{
+     content: "";
+     position: absolute;
+     top:100%;
+     left: 0;
+     width: 0;
+     height: 3px;
+     background-color: rgb(72, 72, 77);
+     transition:  3s;
+ }
+ #aaaaa:hover::before{
+     width: 100px;
+     border:solid 1px;
+     background-color: rgb(113, 129, 118);
+ }
+ 
+ 
+ #aaaaaa{
+     position: relative;
+     font-weight: 500;
+    text-decoration: none ;
+ }
+ #aaaaaa::before{
+     content: "";
+     position: absolute;
+     top:100%;
+     left: 0;
+     width: 0;
+     height: 3px;
+     background-color: rgb(72, 72, 77);
+     transition:  3s;
+ }
+ #aaaaaa:hover::before{
+     width: 100px;
+     border:solid 1px;
+     background-color: rgb(113, 129, 118);
+ }
+ /* აქამდე არის ჰოვერის ლამაზი სტილები */
+/* amis qvemot rac aris gadadis mtavar gverdze locvebis psalmunebis  */
+ .xazidajvari img{
+     background-color: rgb(44, 10, 10);
+ }
+ 
+ 
+ .xazidajvari{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+ }
+ .xatebi{
+    display: flex;
+   
+   justify-content: center;
+}
+.dekorijvris{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dekorijvris img{
+    background-color: rgb(105, 51, 51);
+    border-radius: 20px;
+}
+.gaertianebakale{
+    display: flex;
+  flex-direction: column;
+ 
+ 
+}
+/* aqedan midis ushvalod mushaoba Shuadgis locvebze */
+.div1{
+    display: flex;
+    background-color: rgb(75, 72, 72);
+    width: 20%;
+    float: right;
+   height: 220%;
+
+}
+.div2{
+    display: flex;
+    background-color: rgb(75, 72, 72);
+    width: 7%;
+   height: 220%;
+   float: left;
+}
+/* aedan owyeaba palmun 11is csss da ar vexebi*/
+h1{
+    text-align: center;
+    color: rgb(10, 29, 29);
+}
+body{
+    background-color: antiquewhite;
+}
+.pasamun12{
+    align-items: center;
+    text-align: center;
+    border: solid 2px;
+    border-color: blue;
+    text-shadow: 2px 2px 30px red;
+}
